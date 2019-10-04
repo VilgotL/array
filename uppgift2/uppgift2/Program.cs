@@ -12,7 +12,7 @@ namespace uppgift2
             {
                 summa += temperatur[i];
             }
-            double medelvärde = Math.Round((summa / temperatur.Length), 2);
+            double medelvärde = Math.Round((summa / temperatur.Length), 1);
             Console.WriteLine("Medelvärdet är " + medelvärde);
         }
     }
