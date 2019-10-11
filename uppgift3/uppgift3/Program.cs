@@ -6,7 +6,7 @@ namespace uppgift3
     {
         static void Main(string[] args)
         {
-            double[] temperatur = { 4.5, 3.2, 6.7, 6.1, 2.1, 1.6, 2.9};
+            double[] temperatur = {4.5, 3.2, 6.7, 6.1, 2.1, 1.6, 2.9};
             Console.WriteLine("Medianen är " + Median(temperatur));
         }
         public static double Median(double[] a)
